@@ -74,10 +74,15 @@ collect_holothuria <- function(pattern="^Holothuriidae-", path="data_output/spli
         ## dwc.occurrenceID
         ## dwc.decimalLatitude
         ## dwc.decimalLongitude
-        tmpFile <- .....
+        tmpFile <- tmpFile[, c("dwc.family", "dwc.genus",
+                               "dwc.genus", "dwc.specificEpithet",
+                               "idigbio.uuid", "dwc.scientificName",
+                               "dwc.occurrenceID",
+                               "dwc.decimalLatitude",
+                               "dwc.decimalLongitude"))]
 
         ## write a command that adds these selected columns to our storage data.frame `res`
-        res <- .....
+        res <- rbind(res, tmpFile)
     }
     res
 }
