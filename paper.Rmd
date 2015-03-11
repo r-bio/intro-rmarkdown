@@ -13,10 +13,10 @@ source("cleanup-function.R")
 ```
 
 ```{r author_info, echo=FALSE}
-first_name <- ""
-last_name <- ""
-institution <- ""
-address <- ""
+first_name <- "Francois"
+last_name <- "Michonneau"
+institution <- "FLMNH"
+address <- "Gainesville, FL 32611 USA"
 ```
 
 ```{r, results='hide', echo=FALSE}
