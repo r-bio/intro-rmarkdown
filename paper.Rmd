@@ -59,8 +59,8 @@ From `r institution`
 We analyzed all the records for the family Holothuriidae found in
 [iDigBio](http://portal.idigbio.org) (N = `r nrow(hol_data)`). Among them,
 `r n_red_sea` were found to occur in the Red Sea. They represented
-`r n_species_red_sea` species or `r round(100 * n_species_red_sea/n_species, 2)` of
-the all species included in our dataset. However, `r n_missing` lots were not associated
+`r n_species_red_sea` species or `r round(100 * n_species_red_sea/n_species, 2)` % of
+the species included in our dataset. However, `r n_missing` lots were not associated
 with any coordinate information.
 
 The figure below shows a map of all these occurrences.
